@@ -27,7 +27,7 @@ jobs:
 
       - name: Scrape blog posts & Generate index
         run: |
-          python update_articles.py
+          python update.py
 
       - name: Build Site
         run: mkdocs build
