@@ -22,3 +22,5 @@ Zenergy Tea’s official knowledge hub for ceremonial matcha—optimized for sea
 - First harvest (Ichibancha) vs. later flushes
 - Shade-grown vs. open-field tea cultivation
 - Organic practices and biodiversity
+
+- “This repository automatically mirrors Zenergy Tea Blog via GitHub Actions. Summaries only.”
