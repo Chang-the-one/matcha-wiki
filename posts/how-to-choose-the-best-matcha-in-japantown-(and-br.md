@@ -3,8 +3,12 @@ title: "How to Choose the Best Matcha in Japantown (And Bring Some Magic Home)"
 date: June 15, 2025
 author: "Chang Liu"
 source: "https://www.zenergytea.com/blogs/matcha-notes-journals/how-to-choose-the-best-matcha-japantown"
+seo_title: "How to Choose the Best Matcha in Japantown (And Bring Some Magic Home)
+ – ZENERGY TEA™"
+seo_description: "Discover where to taste, shop, and choose the best matcha in Japantown. Includes tips, matcha ice cream recs, and a sugar-free keto recipe to try at home."
+seo_keywords: ""
 ---
-> **Summary**:  
+> **Summary**:
 > Table of contents
 
 ## 

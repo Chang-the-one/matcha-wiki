@@ -3,8 +3,12 @@ title: "The Ultimate Guide to Choosing a Matcha Tea Bowl (Chawan)"
 date: June 16, 2025
 author: "Chang Liu"
 source: "https://www.zenergytea.com/blogs/matcha-notes-journals/the-ultimate-guide-to-choosing-a-matcha-bowl-chawan"
+seo_title: "The Ultimate Guide to Choosing a Matcha Tea Bowl (Chawan)
+ – ZENERGY TEA™"
+seo_description: "Learn how to choose the perfect matcha tea bowl—from styles and materials to where to buy. Start your ritual with the right chawan."
+seo_keywords: ""
 ---
-> **Summary**:  
+> **Summary**:
 > I still remember the first time I held a matcha tea bowl — wide in my palms, heavy with purpose, whispering of earth and fire. That moment started everything.
 
 ## What Is a Matcha Bowl?

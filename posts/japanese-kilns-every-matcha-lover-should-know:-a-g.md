@@ -3,8 +3,12 @@ title: "Japanese Kilns Every Matcha Lover Should Know: A Guide to Matcha Bowl Cr
 date: June 27, 2025
 author: "Chang Liu"
 source: "https://www.zenergytea.com/blogs/matcha-notes-journals/japanese-matcha-bowl-guide"
+seo_title: "Matcha Bowl Guide: Explore Japanese Tea Accessories
+ – ZENERGY TEA™"
+seo_description: "Explore the perfect matcha bowl for your tea ritual. Learn how Japanese kilns shape these essential Japanese tea accessories—from Raku to Shigaraki—and find your ideal fit."
+seo_keywords: ""
 ---
-> **Summary**:  
+> **Summary**:
 > Table of contents
 
 ## Intro
