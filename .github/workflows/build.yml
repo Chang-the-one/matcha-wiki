@@ -1,0 +1,39 @@
+name: Build and Deploy Matcha Wiki
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 每天 UTC 时间20点，即加州下午1点
+  workflow_dispatch:     # 允许手动运行
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install Dependencies
+        run: |
+          pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin beautifulsoup4 requests
+
+      - name: Scrape blog posts & Generate index
+        run: |
+          python update_articles.py
+
+      - name: Build Site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
