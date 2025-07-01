@@ -1,0 +1,14 @@
+site_name: Zenergy Matcha Wiki
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Posts:
+      - Matcha 101: posts/matcha-101.md
+      - Water Quality: posts/water-quality.md
+markdown_extensions:
+  - toc
+  - tables
+  - admonition
+  - footnotes
+  - codehilite
