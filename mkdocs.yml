@@ -1,14 +1,39 @@
 site_name: Zenergy Matcha Wiki
+site_url: https://chang-the-one.github.io/matcha-wiki/
 theme:
   name: material
-nav:
-  - Home: index.md
-  - Posts:
-      - Matcha 101: posts/matcha-101.md
-      - Water Quality: posts/water-quality.md
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+      accent: teal
+
 markdown_extensions:
-  - toc
+  - toc:
+      permalink: true
   - tables
   - admonition
   - footnotes
   - codehilite
+  - attr_list
+  - pymdownx.extra
+  - pymdownx.superfences
+
+# 自动抓取 posts 下的 md 文件
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Chang-the-one/matcha-wiki
