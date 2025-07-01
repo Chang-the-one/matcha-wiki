@@ -2,8 +2,9 @@ name: Update Blog Content
 
 on:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 20 * * *'   # 每天20:00 UTC执行
   workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -20,7 +21,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install beautifulsoup4 requests
+        run: pip install beautifulsoup4 requests mkdocs
 
       - name: Ensure posts directory exists
         run: mkdir -p posts
@@ -39,3 +40,12 @@ jobs:
             git commit -m "Update blog content"
             git push
           fi
+
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
