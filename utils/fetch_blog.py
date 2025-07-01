@@ -3,6 +3,9 @@ from bs4 import BeautifulSoup
 import os
 from urllib.parse import urljoin
 
+def clean_text(text):
+    return text.replace('"', "'").strip()
+
 BLOG_ROOT = "https://www.zenergytea.com/blogs/matcha-notes-journals"
 OUTPUT_DIR = "posts"
 
@@ -33,6 +36,15 @@ def extract_article_data(url):
     author = author_tag.text.strip() if author_tag else "Chang Liu"
     summary = summary_tag.text.strip() if summary_tag else ""
 
+    # SEO metadata
+    seo_title_tag = soup.find("title")
+    seo_description_tag = soup.find("meta", {"name": "description"})
+    seo_keywords_tag = soup.find("meta", {"name": "keywords"})
+
+    seo_title = clean_text(seo_title_tag.text) if seo_title_tag else ""
+    seo_description = clean_text(seo_description_tag["content"]) if seo_description_tag else ""
+    seo_keywords = clean_text(seo_keywords_tag["content"]) if seo_keywords_tag else ""
+
     # h2 sections
     h2_tags = soup.select("div.article-template__content h2")
     h2s = [h2.text.strip() for h2 in h2_tags]
@@ -44,6 +56,9 @@ def extract_article_data(url):
         "summary": summary,
         "h2s": h2s,
         "url": url,
+        "seo_title": seo_title,
+        "seo_description": seo_description,
+        "seo_keywords": seo_keywords,
     }
 
 def format_markdown(data):
@@ -52,9 +67,12 @@ title: "{data['title']}"
 date: {data['date']}
 author: "{data['author']}"
 source: "{data['url']}"
+seo_title: "{data['seo_title']}"
+seo_description: "{data['seo_description']}"
+seo_keywords: "{data['seo_keywords']}"
 ---
 """
-    summary_block = f"> **Summary**:  \n> {data['summary']}\n\n" if data['summary'] else ""
+    summary_block = f"> **Summary**:\n> {data['summary']}\n\n" if data['summary'] else ""
     h2_block = "\n".join([f"## {h}" for h in data['h2s']])
     return frontmatter + summary_block + h2_block
 
