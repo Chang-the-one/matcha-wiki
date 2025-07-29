@@ -1,10 +1,10 @@
 ---
 title: "Matcha notes Journals"
-date: July 9, 2025
+date: July 25, 2025
 author: "Chang Liu"
-source: "https://www.zenergytea.com/blogs/matcha-notes-journals/tagged/matcha-recipe"
+source: "https://www.zenergytea.com/blogs/matcha-notes-journals/tagged/rituals"
 seo_title: "Matcha notes Journals
- – tagged 'matcha-recipe' – ZENERGY TEA™"
+ – tagged 'rituals' – ZENERGY TEA™"
 seo_description: ""
 seo_keywords: ""
 ---
