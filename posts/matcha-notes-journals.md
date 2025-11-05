@@ -1,6 +1,6 @@
 ---
 title: "Matcha notes Journals"
-date: October 15, 2025
+date: November 4, 2025
 author: "Chang Liu"
 source: "https://www.zenergytea.com/blogs/matcha-notes-journals/tagged/rituals"
 seo_title: "Matcha notes Journals
