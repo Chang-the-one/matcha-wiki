@@ -4,8 +4,19 @@ site_description: Zenergy Tea's matcha knowledge hub for ceremonial matcha, teaw
 repo_url: https://github.com/Chang-the-one/matcha-wiki
 repo_name: Chang-the-one/matcha-wiki
 
-docs_dir: docs
+# This repository stores Markdown content at the repository root:
+#   index.md
+#   posts/*.md
+# Keep docs_dir as "." so MkDocs can find the existing content.
+docs_dir: .
 site_dir: site
+
+exclude_docs: |
+  README.md
+  site/
+  utils/
+  .github/
+  requirements.txt
 
 theme:
   name: material
