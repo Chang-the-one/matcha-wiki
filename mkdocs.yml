@@ -1,5 +1,12 @@
 site_name: Zenergy Matcha Wiki
 site_url: https://chang-the-one.github.io/matcha-wiki/
+site_description: Zenergy Tea's matcha knowledge hub for ceremonial matcha, teaware, and Japanese tea culture.
+repo_url: https://github.com/Chang-the-one/matcha-wiki
+repo_name: Chang-the-one/matcha-wiki
+
+docs_dir: docs
+site_dir: site
+
 theme:
   name: material
   language: en
@@ -22,16 +29,16 @@ markdown_extensions:
   - tables
   - admonition
   - footnotes
-  - codehilite
   - attr_list
   - pymdownx.extra
   - pymdownx.superfences
 
-# 自动抓取 posts 下的 md 文件
 plugins:
   - search
-  - awesome-pages
-  - git-revision-date-localized
+
+nav:
+  - Home: index.md
+  - Blog Summaries: posts/
 
 extra:
   social:
