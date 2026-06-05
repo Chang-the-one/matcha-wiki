@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/a-matcha-tea-rit
 seo_title: "I Lost Hours to Numb Scrolling — Then Found My Way Back Through a Matcha Tea Ritual | Zenergy Journal  – ZENERGY TEA™"
 seo_description: "Discover how a matcha tea ritual restores focus and calm. Through rhythm, foam, and sensory awareness, this 9:16 short shows the neuroscience of stillness."
 seo_keywords: ""
-generated_at: "2026-06-04T21:41:52Z"
+generated_at: "2026-06-05T21:26:21Z"
 ---
 # I Lost Hours to Numb Scrolling — Then Found My Way Back Through a Matcha Tea Ritual | Zenergy Journal
 
