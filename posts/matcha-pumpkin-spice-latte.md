@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/matcha-pumpkin-s
 seo_title: "Matcha Pumpkin Spice Latte | Zenergy Tea  – ZENERGY TEA™"
 seo_description: "Prep time 10 min Cook time 5 min Servings 1pers Category Drinks Origin Original Story It was the first crisp morning of fall.Steam curled above the kettle while the scent of roasted pumpkin drifted through the kitchen.She reached for her bamboo chasen, the one she hadn’t used since summer.As hot water met matcha, the c"
 seo_keywords: ""
-generated_at: "2026-06-21T21:15:05Z"
+generated_at: "2026-06-22T22:03:33Z"
 ---
 # Matcha Pumpkin Spice Latte | Zenergy Tea
 
