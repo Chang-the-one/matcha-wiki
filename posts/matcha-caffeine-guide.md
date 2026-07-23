@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/matcha-caffeine-
 seo_title: "Matcha Caffeine: Calm Energy Without the Crash | Zenergy Tea  – ZENERGY TEA™"
 seo_description: "Discover how much caffeine is in matcha, why it feels calmer than coffee, and how to estimate your cup using a matcha caffeine calculator."
 seo_keywords: ""
-generated_at: "2026-07-22T21:09:01Z"
+generated_at: "2026-07-23T21:05:06Z"
 ---
 # Matcha Caffeine: Calm Energy Without the Crash | Zenergy Tea
 
