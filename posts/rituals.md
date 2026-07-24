@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/tagged/rituals"
 seo_title: "Matcha notes Journals  – tagged 'rituals' – ZENERGY TEA™"
 seo_description: ""
 seo_keywords: ""
-generated_at: "2026-07-23T21:05:09Z"
+generated_at: "2026-07-24T21:04:31Z"
 ---
 # Matcha notes Journals
 
