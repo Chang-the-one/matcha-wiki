@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/what-is-matcha-m
 seo_title: "What Is Matcha Made Of? From Leaf to Cup | Zenergy Tea  – ZENERGY TEA™"
 seo_description: "Matcha is made from shade-grown green tea leaves, steamed, dried, and stone-milled. Learn what makes it different from green tea powder."
 seo_keywords: ""
-generated_at: "2026-10-01T23:43:40Z"
+generated_at: "2026-10-02T23:35:21Z"
 ---
 # What Is Matcha Made Of? From Leaf to Cup | Zenergy Tea
 
