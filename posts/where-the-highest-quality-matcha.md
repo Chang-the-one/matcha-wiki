@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/where-the-highes
 seo_title: "Where the Highest Quality Matcha Really Comes From | Zenergy Tea  – ZENERGY TEA™"
 seo_description: "Discover where the highest quality matcha really comes from. Learn how Shizuoka, Uji, and Nishio in Japan produce matcha with rich umami, vibrant color, and timeless calm."
 seo_keywords: ""
-generated_at: "2026-10-18T22:15:57Z"
+generated_at: "2026-10-19T23:23:28Z"
 ---
 # Where the Highest Quality Matcha Really Comes From | Zenergy Tea
 
