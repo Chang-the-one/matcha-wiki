@@ -6,7 +6,7 @@ source: "https://www.zenergytea.com/blogs/matcha-notes-journals/cold-vs-hot-matc
 seo_title: "Cold vs Hot Matcha: Finding Calm Between Warmth and Clarity | Zenergy Tea  – ZENERGY TEA™"
 seo_description: "Cold matcha tastes smooth and sweet, while hot matcha reveals depth and aroma. Learn how temperature (18–25 °C / 64–77 °F) changes the chemistry, the taste, and even the feeling of calm."
 seo_keywords: ""
-generated_at: "2026-10-29T23:49:20Z"
+generated_at: "2026-10-30T23:29:23Z"
 ---
 # Cold vs Hot Matcha: Finding Calm Between Warmth and Clarity | Zenergy Tea
 
@@ -35,4 +35,4 @@ generated_at: "2026-10-29T23:49:20Z"
 
 ## No Need to Decide
 
-## References
+## Published Brewing Instructions
